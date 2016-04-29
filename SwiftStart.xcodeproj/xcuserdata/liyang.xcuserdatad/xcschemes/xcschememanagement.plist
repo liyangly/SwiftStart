@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>StringsAndCharacters.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>SwiftStart.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>B67146861CD310950019A6D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B67146951CD362B30019A6D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
