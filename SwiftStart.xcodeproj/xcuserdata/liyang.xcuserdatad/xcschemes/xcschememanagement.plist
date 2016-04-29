@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BasicOperators.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SwiftStart.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>B671467B1CD1FB0A0019A6D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B67146861CD310950019A6D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
