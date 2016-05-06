@@ -12,6 +12,7 @@
 		B671468F1CD3141F0019A6D2 /* swiftstart_-_thebasic.md in Sources */ = {isa = PBXBuildFile; fileRef = B671468E1CD3141F0019A6D2 /* swiftstart_-_thebasic.md */; };
 		B67146911CD314510019A6D2 /* basic_operators.md in Sources */ = {isa = PBXBuildFile; fileRef = B67146901CD314510019A6D2 /* basic_operators.md */; };
 		B67146991CD362B30019A6D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67146981CD362B30019A6D2 /* main.swift */; };
+		B68E5B941CDC8280003E7E1A /* StringandCharacters.md in Sources */ = {isa = PBXBuildFile; fileRef = B68E5B931CDC8280003E7E1A /* StringandCharacters.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		B67146901CD314510019A6D2 /* basic_operators.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = basic_operators.md; sourceTree = "<group>"; };
 		B67146961CD362B30019A6D2 /* StringsAndCharacters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringsAndCharacters; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67146981CD362B30019A6D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B68E5B931CDC8280003E7E1A /* StringandCharacters.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = StringandCharacters.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		B67146971CD362B30019A6D2 /* StringsAndCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				B68E5B931CDC8280003E7E1A /* StringandCharacters.md */,
 				B67146981CD362B30019A6D2 /* main.swift */,
 			);
 			path = StringsAndCharacters;
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67146991CD362B30019A6D2 /* main.swift in Sources */,
+				B68E5B941CDC8280003E7E1A /* StringandCharacters.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +395,7 @@
 				B67146821CD1FB0A0019A6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B671468B1CD310950019A6D2 /* Build configuration list for PBXNativeTarget "BasicOperators" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				B671468D1CD310950019A6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B671469A1CD362B30019A6D2 /* Build configuration list for PBXNativeTarget "StringsAndCharacters" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +413,7 @@
 				B671469C1CD362B30019A6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
