@@ -108,6 +108,8 @@ signed 和 unsigned 整型变量占用的内存空间大小相同，而signed整
 	//1.00001
 **Float 最多显示小数点后5位数，精确到6位小数**
 
+**默认情况下小数不如 3.0 ，系统给的是Double**
+
 
 
 ##Type Safety and Type Infference
@@ -215,7 +217,6 @@ signed 和 unsigned 整型变量占用的内存空间大小相同，而signed整
 	// Prints "The status message is OK"
 
 **从上面那个例子看像数组，从这个例子看又像字典！！！**
-**注意：最上面例子中 http404Error 没有像字典那种 key value 特性，只有自定义的才有**
 
 
 

@@ -13,6 +13,7 @@
 		B67146911CD314510019A6D2 /* basic_operators.md in Sources */ = {isa = PBXBuildFile; fileRef = B67146901CD314510019A6D2 /* basic_operators.md */; };
 		B67146991CD362B30019A6D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67146981CD362B30019A6D2 /* main.swift */; };
 		B68E5B941CDC8280003E7E1A /* StringandCharacters.md in Sources */ = {isa = PBXBuildFile; fileRef = B68E5B931CDC8280003E7E1A /* StringandCharacters.md */; };
+		B68E5B9C1CDC833B003E7E1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68E5B9B1CDC833B003E7E1A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B68E5B971CDC833B003E7E1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +65,8 @@
 		B67146961CD362B30019A6D2 /* StringsAndCharacters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringsAndCharacters; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67146981CD362B30019A6D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B68E5B931CDC8280003E7E1A /* StringandCharacters.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = StringandCharacters.md; sourceTree = "<group>"; };
+		B68E5B991CDC833B003E7E1A /* CollectionTypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CollectionTypes; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68E5B9B1CDC833B003E7E1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B68E5B961CDC833B003E7E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +107,7 @@
 				B671467D1CD1FB0A0019A6D2 /* TheBasics */,
 				B67146881CD310950019A6D2 /* BasicOperators */,
 				B67146971CD362B30019A6D2 /* StringsAndCharacters */,
+				B68E5B9A1CDC833B003E7E1A /* CollectionTypes */,
 				B671466F1CD1FA5D0019A6D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +118,7 @@
 				B671467C1CD1FB0A0019A6D2 /* TheBasics */,
 				B67146871CD310950019A6D2 /* BasicOperators */,
 				B67146961CD362B30019A6D2 /* StringsAndCharacters */,
+				B68E5B991CDC833B003E7E1A /* CollectionTypes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +148,14 @@
 				B67146981CD362B30019A6D2 /* main.swift */,
 			);
 			path = StringsAndCharacters;
+			sourceTree = "<group>";
+		};
+		B68E5B9A1CDC833B003E7E1A /* CollectionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B68E5B9B1CDC833B003E7E1A /* main.swift */,
+			);
+			path = CollectionTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +212,23 @@
 			productReference = B67146961CD362B30019A6D2 /* StringsAndCharacters */;
 			productType = "com.apple.product-type.tool";
 		};
+		B68E5B981CDC833B003E7E1A /* CollectionTypes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68E5B9D1CDC833B003E7E1A /* Build configuration list for PBXNativeTarget "CollectionTypes" */;
+			buildPhases = (
+				B68E5B951CDC833B003E7E1A /* Sources */,
+				B68E5B961CDC833B003E7E1A /* Frameworks */,
+				B68E5B971CDC833B003E7E1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionTypes;
+			productName = CollectionTypes;
+			productReference = B68E5B991CDC833B003E7E1A /* CollectionTypes */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +248,9 @@
 					B67146951CD362B30019A6D2 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					B68E5B981CDC833B003E7E1A = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = B67146691CD1FA5D0019A6D2 /* Build configuration list for PBXProject "SwiftStart" */;
@@ -219,6 +268,7 @@
 				B671467B1CD1FB0A0019A6D2 /* TheBasics */,
 				B67146861CD310950019A6D2 /* BasicOperators */,
 				B67146951CD362B30019A6D2 /* StringsAndCharacters */,
+				B68E5B981CDC833B003E7E1A /* CollectionTypes */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +298,14 @@
 			files = (
 				B67146991CD362B30019A6D2 /* main.swift in Sources */,
 				B68E5B941CDC8280003E7E1A /* StringandCharacters.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68E5B951CDC833B003E7E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68E5B9C1CDC833B003E7E1A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +434,20 @@
 			};
 			name = Release;
 		};
+		B68E5B9E1CDC833B003E7E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68E5B9F1CDC833B003E7E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +486,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B68E5B9D1CDC833B003E7E1A /* Build configuration list for PBXNativeTarget "CollectionTypes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68E5B9E1CDC833B003E7E1A /* Debug */,
+				B68E5B9F1CDC833B003E7E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
