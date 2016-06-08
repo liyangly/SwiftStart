@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64514491D08071700B46A29 /* CollectionTypes.md in Sources */ = {isa = PBXBuildFile; fileRef = B64514481D08071700B46A29 /* CollectionTypes.md */; };
 		B671467F1CD1FB0A0019A6D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671467E1CD1FB0A0019A6D2 /* main.swift */; };
 		B671468A1CD310950019A6D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67146891CD310950019A6D2 /* main.swift */; };
 		B671468F1CD3141F0019A6D2 /* swiftstart_-_thebasic.md in Sources */ = {isa = PBXBuildFile; fileRef = B671468E1CD3141F0019A6D2 /* swiftstart_-_thebasic.md */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B64514481D08071700B46A29 /* CollectionTypes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CollectionTypes.md; sourceTree = "<group>"; };
 		B671467C1CD1FB0A0019A6D2 /* TheBasics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheBasics; sourceTree = BUILT_PRODUCTS_DIR; };
 		B671467E1CD1FB0A0019A6D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B67146871CD310950019A6D2 /* BasicOperators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BasicOperators; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 		B68E5B9A1CDC833B003E7E1A /* CollectionTypes */ = {
 			isa = PBXGroup;
 			children = (
+				B64514481D08071700B46A29 /* CollectionTypes.md */,
 				B68E5B9B1CDC833B003E7E1A /* main.swift */,
 			);
 			path = CollectionTypes;
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64514491D08071700B46A29 /* CollectionTypes.md in Sources */,
 				B68E5B9C1CDC833B003E7E1A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +498,7 @@
 				B68E5B9F1CDC833B003E7E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

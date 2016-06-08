@@ -108,7 +108,7 @@ let mapleSyrup = shoppingList.removeAtIndex(0)
 print(mapleSyrup)
 //Maple Syrup
 
-//使用 removeLast() 来删除数组最后一个元素 而不是 removeAtIndex(_:) 以避免超出数组范围，通 removeAtIndex(_:) 一样返回删除的元素
+//使用 removeLast() 来删除数组最后一个元素 而不是 removeAtIndex(_:) 以避免超出数组范围，与 removeAtIndex(_:) 一样返回删除的元素
 let apples = shoppingList.removeLast()
 print(apples)
 //Apples
@@ -140,7 +140,7 @@ for (index,value) in shoppingList.enumerate() {
 
 
 //Set Type Synatx
-//Set<Element> Element 是该 Set 可以存储的值得类型，与数组不同，Set 没有简写形式
+//Set<Element> Element 是该 Set 可以存储的值的类型，与数组不同，Set 没有简写形式
 
 //Creating and Initalizing an Empty Set
 var letters = Set<Character>()
@@ -173,7 +173,7 @@ print(favoriteGenres)
 //["Rock", "Classical", "Jazz", "Hip hop"]
 //再次重申 无序的
 
-//remove(_:) 删除某个特定的元素，如果这个 Set 有这个元素，将删除这个元素，并返回这个元素，如果这个元素没有，则删除的时 nil，并且返回的是 nil
+//remove(_:) 删除某个特定的元素，如果这个 Set 有这个元素，将删除这个元素，并返回这个元素，如果这个元素没有，则删除的是 nil，并且返回的是 nil
 let removedGenre:String = favoriteGenres.remove("Rock")!
 print("\(removedGenre)? I'm over it.")
 //Rock? I'm over it.
